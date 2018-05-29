@@ -16,6 +16,7 @@ while ($data = mysql_fetch_array($result)) {
 $loc = $data['location']; ?>
 <br/>
 <h2> This is the Image : </h2>
+<h1> Test </h1>
 <img src="<?php echo $loc; ?>" /> <!-- show the image using img src -->
 <?php
 }
